@@ -1,0 +1,86 @@
+.popular {
+    padding: 3rem 0;
+}
+
+.popular__content {
+    display: flex;
+    flex-wrap: wrap;
+    grid-area: main;
+    padding: 1rem 0;
+}
+
+.popular__card {
+    display: grid;
+    grid-template-areas: "card-image" "card-body";
+    grid-template-columns: 100%;
+    border-radius: .5rem;
+    padding: .5rem
+}
+
+.popular__card:hover {
+    background-color: #f5f5f5;
+}
+
+.popular__card:last-child {
+    margin-right: 0;
+}
+
+.popular__card-image {
+    grid-area: card-image;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    border-radius: .5rem;
+}
+
+.popular__card-body {
+    display: grid;
+    grid-area: card-body;
+    grid-template-areas: "card-header" "card-content";
+    grid-template-rows: 50px auto;
+    padding: .75rem;
+}
+
+.popular__card-title {
+    color: #333333;
+    font-size: 1.125rem;
+    font-weight: 500;
+}
+
+.popular__card-date {
+    font-size: .75rem;
+    color: #808080;
+}
+
+.popular__card-description {
+    color: #333333;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.popular__title {
+    font-weight: 500;
+}
+
+.popular__icon {
+    margin-right: .25rem;
+}
+
+.popular__header {
+    border-bottom: 1px solid #dcdcdc;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+
+.popular__button {
+    background: transparent;
+    border: none;
+    color: #333333;
+    display: flex;
+    gap: .5rem;
+}

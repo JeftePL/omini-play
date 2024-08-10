@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+  <title>Omni Play | Download our apps and games</title>
+  <link href="./assets/css/normalize.css" rel="stylesheet">
+  <link href="./assets/css/reset.css" rel="stylesheet">
+  <link href="./assets/css/style.css" rel="stylesheet">
+  <link href="./assets/css/highlights.css" rel="stylesheet">
+  <link href="./assets/css/popular.css" rel="stylesheet">
+  <link href="./assets/css/menu.css" rel="stylesheet">
+  <link href="./assets/css/responsive.css" rel="stylesheet">
+  <link rel="shortcut icon" href="./assets/img/icon.ico">
+</head>
+
+<body class="app">
+  <header class="header">
+    <nav class="menu">
+      <ul class="menu__list">
+        <li class="menu__item">
+          <a class="menu__link active" href="#">
+            <i class="fas fa-home"></i>
+            <span class="menu__link-text">Home</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#">
+            <i class="fas fa-mobile-alt"></i>
+            <span class="menu__link-text">Apps</span>
+          </a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="#">
+            <i class="fas fa-gamepad"></i>
+            <span class="menu__link-text">Games</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main" id="home">
+    <section class="highlights">
+
+      <a class="highlights__main box" href="https://store.epicgames.com/en-US/p/fortnite" target="_blank">
+        <h3 class="highlights__title">Fortnite</h3>
+      </a>
+      <a class="highlights__secondary box" href="https://www.pubg.com/" target="_blank">
+        <h3 class="highlights__title">PUBG</h3>
+      </a>
+      <a class="highlights__secondary box" href="https://slack.com/" target="_blank">
+        <h3 class="highlights__title">Slack</h3>
+      </a>
+      <a class="highlights__secondary box" href="https://www.whatsapp.com/" target="_blank">
+        <h3 class="highlights__title">Whatsapp</h3>
+      </a>
+      <a class="highlights__secondary box" href="https://store.steampowered.com/app/730/CounterStrike_2/"
+        target="_blank">
+        <h3 class="highlights__title">Counter-Strike 2</h3>
+      </a>
+      <div class="highlights__categories">
+        <ul class="highlights__categories-list">
+          <li class="highlights__categories-item">
+            <a class="highlights__categories-link" href="#apps">
+              <i class="highlights__categories-icon fab fa-buromobelexperte"></i>
+              <span class="highlights__categories-text">Popular Apps</span>
+            </a>
+          </li>
+          <li class="highlights__categories-item">
+            <a class="highlights__categories-link" href="#games">
+              <i class="highlights__categories-icon fas fa-list-ol"></i>
+              <span class="highlights__categories-text">Popular Games</span>
+            </a>
+          </li>
+          <li class="highlights__categories-item">
+            <a class="highlights__categories-link" href="#highlights">
+              <i class="highlights__categories-icon far fa-star"></i>
+              <span class="highlights__categories-text">Highlights</span>
+            </a>
+          </li>
+          <li class="highlights__categories-item">
+            <a class="highlights__categories-link" href="#releases">
+              <i class="highlights__categories-icon far fa-bell"></i>
+              <span class="highlights__categories-text">Releases</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="popular">
+      <div class="popular__items" id="apps">
+        <div class="popular__info">
+          <div class="popular__header">
+            <h4 class="popular__title">
+              <i class="popular__icon fab fa-buromobelexperte"></i>
+              Popular Apps
+            </h4>
+            <button class="popular__button">
+              <i class="fas fa-th"></i>
+              View All
+            </button>
+          </div>
+        </div>
+        <div class="popular__content">
+          <a class="popular__card" href="https://slack.com/" target="_blank">
+            <img class="popular__card-image" src="./assets/img/slack.png" alt="Slack logo">
+            <div class="popular__card-body">
+              <div class="popular__card-header">
+                <h5 class="popular__card-title">Slack</h5>
+                <time class="popular__card-date" datetime="2013-08-01">2013</time>
+              </div>
+              <div class="popular__card-description">
+                <span>4.2 <i class="fas fa-star"></i></span>
+                All your team communication in one place
+              </div>
+            </div>
+          </a>
+          <a class="popular__card" href="https://www.whatsapp.com/" target="_blank">
+            <img class="popular__card-image" src="./assets/img/whatsapp.png" alt="Whatsapp logo">
+            <div class="popular__card-body">
+              <div class="popular__card-header">
+                <h5 class="popular__card-title">Whatsapp</h5>
+                <time class="popular__card-date" datetime="2009-01-01">2009</time>
+              </div>
+              <div class="popular__card-description">
+                <span>4.3 <i class="fas fa-star"></i></span>
+                Simple. Reliable. Private.
+              </div>
+            </div>
+          </a>
+          <a class="popular__card" href="https://web.telegram.org/" target="_blank">
+            <img class="popular__card-image" src="./assets/img/telegram.webp" alt="Telegram logo">
+            <div class="popular__card-body">
+              <div class="popular__card-header">
+                <h5 class="popular__card-title">Telegram</h5>
+                <time class="popular__card-date" datetime="2013-08-14">2013</time>
+              </div>
+              <div class="popular__card-description">
+                <span>4.2 <i class="fas fa-star"></i></span>
+                Messaging app with a focus on speed and security.
+              </div>
+            </div>
+          </a>
+          <a class="popular__card" href="https://trello.com/" target="_blank">
+            <img class="popular__card-image" src="./assets/img/trello.jpg" alt="Trello board image">
+            <div class="popular__card-body">
+              <div class="popular__card-header">
+                <h5 class="popular__card-title">Trello</h5>
+                <time class="popular__card-date" datetime="2011-01-01">2011</time>
+              </div>
+              <div class="popular__card-description">
+                <span>4.6 <i class="fas fa-star"></i></span>
+                Projects? Workflows? Team up!
+              </div>
+            </div>
+          </a>
+          <a class="popular__card" href="http://www.skype.com/" target="_blank">
+            <img class="popular__card-image" src="./assets/img/skype.png" alt="Skype logo">
+            <div class="popular__card-body">
+              <div class="popular__card-header">
+                <h5 class="popular__card-title">Skype</h5>
+                <time class="popular__card-date" datetime="2003-08-01">2003</time>
+              </div>
+              <div class="popular__card-description">
+                <span>4.4 <i class="fas fa-star"></i></span>
+                Call. Chat. Search. All in Skype.
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="popular__items" id="games">
+        <div class="popular__info">
+          <div class="popular__header">
+            <h4 class="popular__title">
+              <i class="popular__icon fas fa-list-ol"></i>
+              Popular Games
+            </h4>
+            <button class="popular__button">
+              <i class="fas fa-th"></i>
+              View All
+            </button>
+          </div>
+        </div>
+        <div class="popular__content">
+          <a class="popular__card" href="https://store.epicgames.com/en-US/p/fortnite" target="_blank">
+            <img class="popular__card-image" src="./assets/img/fortnite.jpg" alt="Fortnite thumbnail">
+            <div class="popular__card-body">
+              <div class="popular__card-header">
+                <h5 class="popular__card-title">Fortnite</h5>
+                <time class="popular__card-date" datetime="2017-07-25">2017</time>
+              </div>
+              <div class="popular__card-description">
+                <span>4.3 <i class="fas fa-star"></i></span>
+                Create, play, and battle with friends for free.
+              </div>
+            </div>
+          </a>
+          <a class="popular__card" href="https://www.pubg.com/" target="_blank">
+            <img class="popular__card-image" src="./assets/img/pubg.jpg" alt="PUBG thumbnail">
+            <div class="popular__card-body">
+              <div class="popular__card-header">
+                <h5 class="popular__card-title">PUBG</h5>
+                <time class="popular__card-date" datetime="2017-03-23">2017</time>
+              </div>
+              <div class="popular__card-description">
+                <span>4.3 <i class="fas fa-star"></i></span>
+                The ultimate Battle Royale!
+              </div>
+            </div>
+          </a>
+          <a class="popular__card" href="https://store.steampowered.com/app/730/CounterStrike_2/" target="_blank">
+            <img class="popular__card-image" src="./assets/img/cs-go.jpg" alt="Counter-Strike 2 thumbnail">
+            <div class="popular__card-body">
+              <div class="popular__card-header">
+                <h5 class="popular__card-title">Counter-Strike 2</h5>
+                <time class="popular__card-date" datetime="2012-08-21">2012</time>
+              </div>
+              <div class="popular__card-description">
+                <span>4.8 <i class="fas fa-star"></i></span>
+                FPS with an elite competitive experience
+              </div>
+            </div>
+          </a>
+          <a class="popular__card" href="https://www.leagueoflegends.com/" target="_blank">
+            <img class="popular__card-image" src="./assets/img/lol.jpg" alt="League of Legends thumbnail">
+            <div class="popular__card-body">
+              <div class="popular__card-header">
+                <h5 class="popular__card-title">League of Legends</h5>
+                <time class="popular__card-date" datetime="2009-10-27">2009</time>
+              </div>
+              <div class="popular__card-description">
+                <span>3 <i class="fas fa-star"></i></span>
+                Team up, select a champion, and dive into the Rift.
+              </div>
+            </div>
+          </a>
+          <a class="popular__card" href="https://www.rockstargames.com/gta-v" target="_blank">
+            <img class="popular__card-image" src="./assets/img/gta-v.jpg" alt="Grand Theft Auto V thumbnail">
+            <div class="popular__card-body">
+              <div class="popular__card-header">
+                <h5 class="popular__card-title">Grand Theft Auto V</h5>
+                <time class="popular__card-date" datetime="2013-09-17">2013</time>
+              </div>
+              <div class="popular__card-description">
+                <span>4.9 <i class="fas fa-star"></i></span>
+                Three criminals team up for a series of heists
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="popular__items" id="highlights">
+        <div class="popular__info">
+          <div class="popular__header">
+            <h4 class="popular__title">
+              <i class="popular__icon far fa-star"></i>
+              Highlights
+            </h4>
+            <button class="popular__button">
+              <i class="fas fa-th"></i>
+              View All
+            </button>
+          </div>
+        </div>
+        <div class="popular__content">
+          <a class="popular__card" href="https://store.epicgames.com/en-US/p/fortnite" target="_blank">
+            <img class="popular__card-image" src="./assets/img/fortnite.jpg" alt="Fortnite thumbnail">
+            <div class="popular__card-body">
+              <div class="popular__card-header">
+                <h5 class="popular__card-title">Fortnite</h5>
+                <time class="popular__card-date" datetime="2017-07-25">2017</time>
+              </div>
+              <div class="popular__card-description">
+                <span>4.3 <i class="fas fa-star"></i></span>
+                Create, play, and battle with friends for free.
+              </div>
+            </div>
+          </a>
+          <a class="popular__card" href="https://www.pubg.com/" target="_blank">
+            <img class="popular__card-image" src="./assets/img/pubg.jpg" alt="PUBG thumbnail">
+            <div class="popular__card-body">
+              <div class="popular__card-header">
+                <h5 class="popular__card-title">PUBG</h5>
+                <time class="popular__card-date" datetime="2017-03-23">2017</time>
+              </div>
+              <div class="popular__card-description">
+                <span>4.3 <i class="fas fa-star"></i></span>
+                The ultimate Battle Royale!
+              </div>
+            </div>
+          </a>
+          <a class="popular__card" href="https://slack.com/" target="_blank">
+            <img class="popular__card-image" src="./assets/img/slack.png" alt="Slack logo">
+            <div class="popular__card-body">
+              <div class="popular__card-header">
+                <h5 class="popular__card-title">Slack</h5>
+                <time class="popular__card-date" datetime="2013-08-01">2013</time>
+              </div>
+              <div class="popular__card-description">
+                <span>4.2 <i class="fas fa-star"></i></span>
+                All your team communication in one place
+              </div>
+            </div>
+          </a>
+          <a class="popular__card" href="https://www.whatsapp.com/" target="_blank">
+            <img class="popular__card-image" src="./assets/img/whatsapp.png" alt="Whatsapp logo">
+            <div class="popular__card-body">
+              <div class="popular__card-header">
+                <h5 class="popular__card-title">Whatsapp</h5>
+                <time class="popular__card-date" datetime="20090-01-01">2009</time>
+              </div>
+              <div class="popular__card-description">
+                <span>4.3 <i class="fas fa-star"></i></span>
+                Simple. Reliable. Private.
+              </div>
+            </div>
+          </a>
+          <a class="popular__card" href="https://store.steampowered.com/app/730/CounterStrike_2/" target="_blank">
+            <img class="popular__card-image" src="./assets/img/cs-go.jpg" alt="Counter-Strike 2 thumbnail">
+            <div class="popular__card-body">
+              <div class="popular__card-header">
+                <h5 class="popular__card-title">Counter-Strike 2</h5>
+                <time class="popular__card-date" datetime="2012-08-21">2012</time>
+              </div>
+              <div class="popular__card-description">
+                <span>4.8 <i class="fas fa-star"></i></span>
+                FPS with an elite competitive experience
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="popular__items" id="releases">
+        <div class="popular__info">
+          <div class="popular__header">
+            <h4 class="popular__title">
+              <i class="popular__icon far fa-bell"></i>
+              Releases
+            </h4>
+            <button class="popular__button">
+              <i class="fas fa-th"></i>
+              View All
+            </button>
+          </div>
+        </div>
+        <div class="popular__content">
+          <a class="popular__card" href="https://play.google.com/store/apps/details?id=com.supercell.brawlstars&hl=en"
+            target="_blank">
+            <img class="popular__card-image" src="./assets/img/brawl-stars.jpg" alt="Brawl Stars thumbnail">
+            <div class="popular__card-body">
+              <div class="popular__card-header">
+                <h5 class="popular__card-title">Brawl Stars</h5>
+                <time class="popular__card-date" datetime="2017-06-15">2017</time>
+              </div>
+              <div class="popular__card-description">
+                <span>4.4 <i class="fas fa-star"></i></span>
+                3v3 and Battle Royale.
+              </div>
+            </div>
+          </a>
+          <a class="popular__card" href="https://play.google.com/store/apps/details?id=com.organizze.android&hl=en"
+            target="_blank">
+            <img class="popular__card-image" src="./assets/img/organizze.webp" alt="Organizze logo">
+            <div class="popular__card-body">
+              <div class="popular__card-header">
+                <h5 class="popular__card-title">Organizze</h5>
+                <time class="popular__card-date" datetime="">Não definida</time>
+              </div>
+              <div class="popular__card-description">
+                <span>4.6 <i class="fas fa-star"></i></span>
+                Have your budget on your hands.
+              </div>
+            </div>
+          </a>
+          <a class="popular__card" href="https://onefootball.com/en/home" target="_blank">
+            <img class="popular__card-image" src="./assets/img/onefootball.jpg" alt="Onefootball logo">
+            <div class="popular__card-body">
+              <div class="popular__card-header">
+                <h5 class="popular__card-title">Onefootball</h5>
+                <time class="popular__card-date" datetime="2008-01-01">2008</time>
+              </div>
+              <div class="popular__card-description">
+                <span>4.7 <i class="fas fa-star"></i></span>
+                Transfers news, stats and live scores.
+              </div>
+            </div>
+          </a>
+          <a class="popular__card" href="https://play.google.com/store/apps/details?id=com.dts.freefireth&hl=en"
+            target="_blank">
+            <img class="popular__card-image" src="./assets/img/free-fire.jpg" alt="Free Fire thumbnail">
+            <div class="popular__card-body">
+              <div class="popular__card-header">
+                <h5 class="popular__card-title">Free Fire</h5>
+                <time class="popular__card-date" datetime="2017-11-01">2017</time>
+              </div>
+              <div class="popular__card-description">
+                <span>4.5 <i class="fas fa-star"></i></span>
+                10-minute Survival Shooter!
+              </div>
+            </div>
+          </a>
+          <a class="popular__card" href="https://mariokarttour.com/en-US" target="_blank">
+            <img class="popular__card-image" src="./assets/img/mario-kart.jpg" alt="Mario Kart Tour thumbnail">
+            <div class="popular__card-body">
+              <div class="popular__card-header">
+                <h5 class="popular__card-title">Mario Kart Tour</h5>
+                <time class="popular__card-date" datetime="">Não definida</time>
+              </div>
+              <div class="popular__card-description">
+                <span>4.3 <i class="fas fa-star"></i></span>
+                Race around the world!
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">All rights reserved &copy;2024</footer>
+  <script src="./assets/js/fontawesome.all.min.js"></script>
+</body>
+
+</html>

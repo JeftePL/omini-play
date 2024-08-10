@@ -1,0 +1,29 @@
+.app {
+    background: #FFFFFF;
+    display: grid;
+    font-family: "Open Sans", sans-serif;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+    grid-template-columns: auto;
+}
+
+.header {
+    align-items: center;
+    display: flex;
+    grid-area: header;
+    padding: 0 2rem .75rem;
+}
+
+.main {
+    grid-area: main;
+    padding: 0 2rem;
+}
+
+.footer {
+    color: #333333;
+    grid-area: footer;
+    padding: 1rem;
+    text-align: center;
+}
